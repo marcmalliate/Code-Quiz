@@ -14,39 +14,39 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: 'What does CSS stand for?',
-        choice1: '1',
-        choice2: '2',
-        choice3: '3',
-        choice4: '4',
-        answer: '1',
+        question: 'What does CSS mean?',
+        choice1: 'Color style sheet',
+        choice2: 'Cascading style sheet',
+        choice3: 'Cool styling sheet',
+        choice4: 'Code style sheet',
+        answer: 'Cascading style sheet',
     },
 
     {
-        question: 'What is a boolean?',
-        choice1: '1',
-        choice2: '2',
-        choice3: '3',
-        choice4: '4',
-        answer: '2',
+        question: 'What does HTML stand for?',
+        choice1: 'How The Map Links',
+        choice2: 'Home Type Main Language',
+        choice3: 'Hypertext Markup Language',
+        choice4: 'Hyper Text Main Language',
+        answer: 'Hypertext Markup Language',
     },
 
     {
-        question: 'What is Javascript?',
-        choice1: '1',
-        choice2: '2',
-        choice3: '3',
-        choice4: '4',
-        answer: '3',
+        question: 'What does JS stand for?',
+        choice1: 'Jumping Skipping',
+        choice2: 'Julu Script',
+        choice3: 'Java Script',
+        choice4: 'Java Scroll',
+        answer: 'Java Script',
     },
 
     {
-        question: 'What does REM stand for?',
-        choice1: '1',
-        choice2: '2',
-        choice3: '3',
-        choice4: '4',
-        answer: '3',
+        question: 'In CSS, what does REM stand for?',
+        choice1: 'Rapid eye movement',
+        choice2: 'Read element mode',
+        choice3: 'Root element',
+        choice4: 'Root element mode',
+        answer: 'Root element',
     },
 
 ]
