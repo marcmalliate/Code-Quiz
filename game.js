@@ -7,12 +7,14 @@ const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
 
 
+
 let currentQuestion = {}
 let acceptingAnswers = true
 let score = 0
 let questionCounter = 0
 let availableQuestions = []
 
+// Quiz multiple choice questions
 let questions = [
     {
         question: 'What does CSS mean?',
@@ -64,9 +66,12 @@ startGame = () => {
     availableQuestions = [...questions]
     getNewQuestion()
 
+
 }
 
 
+
+// Conditions
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
@@ -93,7 +98,6 @@ getNewQuestion = () => {
 }
 
 
-
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if (!acceptingAnswers) return
@@ -118,6 +122,8 @@ choices.forEach(choice => {
 
     })
 })
+
+
 
 incrementScore = num => {
     score += num
