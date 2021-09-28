@@ -19,7 +19,7 @@ let questions = [
         choice2: 'Cascading style sheet',
         choice3: 'Cool styling sheet',
         choice4: 'Code style sheet',
-        answer: 'Cascading style sheet',
+        answer: 2,
     },
 
     {
@@ -28,7 +28,7 @@ let questions = [
         choice2: 'Home Type Main Language',
         choice3: 'Hypertext Markup Language',
         choice4: 'Hyper Text Main Language',
-        answer: 'Hypertext Markup Language',
+        answer: 3,
     },
 
     {
@@ -37,16 +37,16 @@ let questions = [
         choice2: 'Julu Script',
         choice3: 'Java Script',
         choice4: 'Java Scroll',
-        answer: 'Java Script',
+        answer: 3,
     },
 
     {
         question: 'In CSS, what does REM stand for?',
         choice1: 'Rapid eye movement',
         choice2: 'Read element mode',
-        choice3: 'Root element',
-        choice4: 'Root element mode',
-        answer: 'Root element',
+        choice3: 'Root element mode',
+        choice4: 'Root element',
+        answer: 4,
     },
 
 ]
