@@ -1,3 +1,5 @@
+// This save the players score and allows them to save their name
+
 const username = document.querySelector('#username')
 const saveScoreBtn = document.querySelector('#saveScoreBtn')
 const finalScore = document.querySelector('#finalScore')
@@ -34,6 +36,6 @@ saveHighScore = e => {
 highScores.splice(5)
 
 localStorage.setItem('highScores', JSON.stringify(highScores))
-window.location.assign('/')
+window.location.assign('highscore.html')
 
 }
